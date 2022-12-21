@@ -1,0 +1,101 @@
+.intro {
+  margin: 30px auto;
+  max-width: 1400px;
+  img {
+    width: 100%;
+  }
+}
+.btn_search {
+  display: flex;
+  background: rgb(232, 230, 230);
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn_search input::placeholder {
+  font-family: "EB Garamond", serif;
+}
+.btn_search input {
+  background: transparent;
+  padding: 0 10px;
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+  border: none;
+  outline: none;
+}
+
+.tab_item {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_tab {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  width: 100%;
+  margin-right: 30px;
+}
+.tab_bar {
+  margin: 20px;
+}
+.btn_search img {
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.btn img:hover {
+  background-color: darkgray;
+  border-radius: 50px;
+}
+.tab {
+  background-color: #dbdbdb;
+  border-radius: 8px;
+  color: black;
+  width: 100%;
+  margin-right: 20px;
+  max-width: 145px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tab:hover {
+  background: #55a784;
+  color: white;
+}
+
+.container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  .b {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgb(179, 176, 176);
+    cursor: pointer;
+    border: none;
+    background-color: #ffb061;
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    color: white;
+  }
+  .b:hover {
+    background-color: #FF902B;
+  }
+}
+.icon_shop{
+  cursor: pointer;
+  color: #FF902B;
+  margin-right: 40px;
+  margin-bottom: -10px;
+  margin-top: -50px;
+  text-align: end;
+}
+

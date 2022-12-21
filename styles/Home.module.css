@@ -1,0 +1,153 @@
+.intro {
+  margin: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.slice img {
+  max-width: 600px;
+}
+.silce {
+  margin: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  .slice img {
+    max-width: 500px;
+  }
+  .a1 {
+    font-size: 25px !important;
+  }
+  .a2 {
+    font-size: 35px !important;
+  }
+  .a3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1080px) {
+  .slice img {
+    max-width: 400px !important ;
+  }
+  .a1 {
+    font-size: 22px !important;
+  }
+  .a2 {
+    font-size: 32px !important;
+  }
+  .a3 {
+    font-size: 16.5px !important;
+  }
+}
+@media (max-width: 960px) {
+  .slice img {
+    min-width: 300px !important;
+  }
+
+  .a1 {
+    font-size: 20px !important;
+  }
+  .a2 {
+    font-size: 30px !important;
+  }
+  .a3 {
+    font-size: 14.8px !important;
+  }
+}
+.content {
+  margin-top: 60px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.a1 {
+  font-size: 40px;
+  margin-left: 10px;
+}
+.a2 {
+  font-size: 50px;
+  margin: 30px 10%;
+}
+.a3 {
+  font-size: 20px;
+  text-align: justify;
+}
+.btn_search {
+  display: flex;
+  background: rgb(232, 230, 230);
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn_search input::placeholder {
+  font-family: 'EB Garamond', serif;
+}
+.btn_search input {
+  background: transparent;
+  padding: 0 10px;
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+  border: none;
+  outline: none;
+}
+
+.tab_item {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_tab {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 30px;
+}
+.tab_bar {
+  margin: 20px 0;
+}
+.btn_search img {
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.tab {
+  background-color: #dbdbdb;
+  border-radius: 8px;
+  color: black;
+  width: 100%;
+  max-width: 145px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tab:hover {
+  background: #55a784;
+  color: white;
+}
+
+.content_post {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.post{
+  margin: 40px 40px;
+  width: 600px;
+  text-align: center;
+}
+.post p{
+  text-align: justify;
+  font-size: 20px;
+}
+.postImage{
+  margin: 30px 10px;
+  width: 500px;
+}
+.h{
+  text-align: left;
+  color: #2C7657;
+}
+.h:hover{
+  color:rgb(0, 181, 252);
+}
