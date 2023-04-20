@@ -1,7 +1,9 @@
 .intro {
+  border-radius: 22px;
   margin: 30px auto;
   max-width: 1400px;
   img {
+    border-radius: 22px;
     width: 100%;
   }
 }
@@ -87,15 +89,63 @@
     color: white;
   }
   .b:hover {
-    background-color: #FF902B;
+    background-color: #ff902b;
   }
 }
-.icon_shop{
-  cursor: pointer;
-  color: #FF902B;
+.icon_shop {
+  color: #ff902b;
   margin-right: 40px;
   margin-bottom: -10px;
   margin-top: -50px;
   text-align: end;
-}
+  display: flex;
+  justify-content: end;
+  .index {
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    text-align: center;
+    background-color: rgb(255, 78, 78);
+    color: white;
+    width: 20px;
 
+    height: 20px;
+    border-radius: 50px;
+  }
+  .itemBuy {
+    cursor: pointer;
+    width: 60px;
+    font-size: 50px;
+    :hover {
+      color: #ffb061;
+    }
+    :active {
+      color: #00b9f151;
+    }
+  }
+}
+.pay_detail {
+  .pay_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    h1 {
+      margin-left: 50px;
+    }
+  }
+  .list_buy {
+    overflow-y: auto;
+    height: 100%;
+    width: 80%;
+    max-height: 400px;
+    padding: auto;
+    margin: 20px auto;
+  }
+
+  .list_buy::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+  }
+  .list_buy::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

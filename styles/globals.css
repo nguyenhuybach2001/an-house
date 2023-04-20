@@ -32,6 +32,7 @@ a {
 }
 
 .content {
+  overflow-x: hidden !important;
   max-width: 1400px;
   margin: 0 auto;
   min-width: 1000px;
@@ -81,4 +82,26 @@ footer .item_left img{
 }
 footer .item_right img{
   margin-left: 10%;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

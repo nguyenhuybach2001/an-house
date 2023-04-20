@@ -50,9 +50,9 @@ export default function Home() {
               adipiscing elit, sed do eiusmod.
             </p>
             <h2 className={styles.h}>
-              Read full post{" "} 
+              Read full post{" "}
               <svg
-              style={{marginBottom:-5}}
+                style={{ marginBottom: -5 }}
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -77,9 +77,9 @@ export default function Home() {
               adipiscing elit, sed do eiusmod.
             </p>
             <h3 className={styles.h}>
-              Read full post{" "} 
+              Read full post{" "}
               <svg
-              style={{marginBottom:-5}}
+                style={{ marginBottom: -5 }}
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
